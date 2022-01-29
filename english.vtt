@@ -1,0 +1,1514 @@
+WEBVTT
+
+1
+00:00:00.719 --> 00:00:03.360
+hello and welcome back to another lesson
+
+2
+00:00:03.360 --> 00:00:05.120
+of the web development course
+
+3
+00:00:05.120 --> 00:00:08.320
+which is all about how to make websites and
+
+4
+00:00:08.320 --> 00:00:10.719
+introducing you to the three main
+
+5
+00:00:10.719 --> 00:00:13.120
+programming languages used in it which are
+
+6
+00:00:13.120 --> 00:00:16.160
+html css and javascript so without
+
+7
+00:00:16.160 --> 00:00:18.720
+further and due let's get into the third lesson
+
+8
+00:00:18.720 --> 00:00:20.960
+but just before we get into that i just
+
+9
+00:00:20.960 --> 00:00:22.880
+wanted to make something clear
+
+10
+00:00:22.880 --> 00:00:25.119
+and that's why i talk in english and
+
+11
+00:00:25.119 --> 00:00:27.599
+just not any other language out there
+
+12
+00:00:27.599 --> 00:00:30.720
+and the reason is because when i actually
+
+13
+00:00:30.720 --> 00:00:33.440
+like talk in english you are going to
+
+14
+00:00:33.440 --> 00:00:35.520
+learn two things simultaneously
+
+15
+00:00:35.520 --> 00:00:37.520
+so you will learn english and
+
+16
+00:00:37.520 --> 00:00:39.760
+programming at the same time so it's just like
+
+17
+00:00:39.760 --> 00:00:42.399
+killing two birds with one stone and
+
+18
+00:00:42.399 --> 00:00:44.719
+that's because programming is all in english
+
+19
+00:00:44.719 --> 00:00:46.640
+so if you know english programming is
+
+20
+00:00:46.640 --> 00:00:48.079
+going to be much much easier to
+
+21
+00:00:48.079 --> 00:00:49.440
+understand and comprehend
+
+22
+00:00:49.440 --> 00:00:52.160
+so i really suggest you get into english
+
+23
+00:00:53.039 --> 00:00:56.480
+to know english just because programming is the same
+
+24
+00:00:56.480 --> 00:00:59.680
+as talking english but instead of
+
+25
+00:00:59.680 --> 00:01:01.840
+a person you are talking to a computer
+
+26
+00:01:01.840 --> 00:01:04.959
+so yeah keep that in mind too
+
+27
+00:01:04.959 --> 00:01:09.040
+and instead of talking or speaking you are just typing it or
+
+28
+00:01:09.040 --> 00:01:13.439
+you know writing it down and i don't want to
+
+29
+00:01:13.439 --> 00:01:15.759
+take this a bit further but that's just
+
+30
+00:01:15.759 --> 00:01:18.000
+why i actually talk in english
+
+31
+00:01:37.600 --> 00:01:39.040
+the first thing that you should do is
+
+32
+00:01:39.040 --> 00:01:41.040
+actually getting the text editor
+
+33
+00:01:41.040 --> 00:01:42.799
+and the first one i'm going to type is
+
+34
+00:01:42.799 --> 00:01:44.399
+going to be sublime as you can see this
+
+35
+00:01:44.399 --> 00:01:46.079
+is the download page for it
+
+36
+00:01:46.079 --> 00:01:48.079
+and the other one is going to be the
+
+37
+00:01:48.079 --> 00:01:49.840
+notepad++ which i'm going to put
+
+38
+00:01:49.840 --> 00:01:52.000
+it in the description right
+
+39
+00:01:52.000 --> 00:01:55.840
+and if i could just type it you can actually get the 64-bit
+
+40
+00:01:55.840 --> 00:01:59.439
+or a 32-bit for your you know machine
+
+41
+00:01:59.439 --> 00:02:02.799
+and for you know ios users and
+
+42
+00:02:02.799 --> 00:02:05.360
+android users basically mobiles you can
+
+43
+00:02:05.360 --> 00:02:08.000
+actually get this app for ios users
+
+44
+00:02:08.000 --> 00:02:12.080
+you can write code and css you know javascript
+
+45
+00:02:12.080 --> 00:02:14.000
+everything is there you can actually use
+
+46
+00:02:14.000 --> 00:02:15.520
+it and for android users
+
+47
+00:02:15.520 --> 00:02:18.000
+i recommend using this app it's great it
+
+48
+00:02:18.000 --> 00:02:20.160
+even like styles stuff
+
+49
+00:02:20.160 --> 00:02:23.280
+it's amazing after that's out of the way
+
+50
+00:02:23.280 --> 00:02:26.959
+i'm gonna type some stuff in the file
+
+51
+00:02:26.959 --> 00:02:29.760
+and show you how to make the file so
+
+52
+00:02:29.760 --> 00:02:30.879
+let me just say like
+
+53
+00:02:30.879 --> 00:02:35.120
+this is some website and actually save it
+
+54
+00:02:35.120 --> 00:02:38.640
+i'm just going to save it like all files and then dot
+
+55
+00:02:38.640 --> 00:02:40.080
+you know every file has like an
+
+56
+00:02:40.080 --> 00:02:43.920
+extension for instance an image has like a jpeg or png
+
+57
+00:02:43.920 --> 00:02:47.519
+extension at the end of it but
+
+58
+00:02:47.519 --> 00:02:51.200
+you know html files have html
+
+59
+00:02:51.200 --> 00:02:54.239
+which makes sense however for web development and
+
+60
+00:02:54.239 --> 00:02:58.640
+making you know website files and html files it's
+
+61
+00:02:58.640 --> 00:03:02.000
+really important to have a different name for
+
+62
+00:03:02.000 --> 00:03:05.760
+the html or the first html file you actually make
+
+63
+00:03:05.760 --> 00:03:08.800
+just because it's a bit important and
+
+64
+00:03:08.800 --> 00:03:10.720
+i'll show you why in a second
+
+65
+00:03:10.720 --> 00:03:13.840
+so if we actually just go to our file
+
+66
+00:03:13.840 --> 00:03:16.400
+which is in this folder where i saved and if
+
+67
+00:03:16.400 --> 00:03:18.159
+we drag it and drop it you can see
+
+68
+00:03:18.159 --> 00:03:20.239
+it opened it and it set like the
+
+69
+00:03:20.239 --> 00:03:21.920
+directory to the title
+
+70
+00:03:21.920 --> 00:03:23.519
+and you can see like this is some
+
+71
+00:03:23.519 --> 00:03:25.200
+website so we can see the content of the
+
+72
+00:03:25.200 --> 00:03:26.720
+file as a website
+
+73
+00:03:26.720 --> 00:03:29.599
+however there's a problem as you
+
+74
+00:03:29.599 --> 00:03:31.360
+can see we did not name it
+
+75
+00:03:31.360 --> 00:03:34.400
+properly if we actually go
+
+76
+00:03:34.400 --> 00:03:37.440
+so this is the directory right so if we
+
+77
+00:03:37.440 --> 00:03:41.280
+open the website or on a domain like google
+
+78
+00:03:41.280 --> 00:03:44.000
+it won't open the html file directly
+
+79
+00:03:44.000 --> 00:03:46.000
+it's actually just gonna show the directories
+
+80
+00:03:46.000 --> 00:03:48.560
+which is really not good because the
+
+81
+00:03:48.560 --> 00:03:50.959
+user could go through your files you know your
+
+82
+00:03:50.959 --> 00:03:54.239
+pictures and till the end which is really not good
+
+83
+00:03:54.239 --> 00:03:56.959
+so you want to fix that problem and
+
+84
+00:03:56.959 --> 00:03:58.879
+the way you do it is
+
+85
+00:03:58.879 --> 00:04:02.959
+fairly simple you just name let me just get that back
+
+86
+00:04:02.959 --> 00:04:06.560
+close that and open the folder
+
+87
+00:04:06.560 --> 00:04:09.280
+and just rename this to index this is
+
+88
+00:04:09.280 --> 00:04:10.799
+really important if you
+
+89
+00:04:10.799 --> 00:04:15.200
+name it index.html and then if i just refresh this
+
+90
+00:04:15.200 --> 00:04:18.720
+you can see it automatically actually opened it
+
+91
+00:04:18.720 --> 00:04:20.959
+and if i even like get it to another
+
+92
+00:04:20.959 --> 00:04:22.639
+window it should do the same
+
+93
+00:04:22.639 --> 00:04:26.000
+so let me just remove this file and
+
+94
+00:04:26.000 --> 00:04:28.720
+get the new one that i renamed in it and
+
+95
+00:04:28.720 --> 00:04:31.360
+remove this and type some html
+
+96
+00:04:31.360 --> 00:04:34.080
+so the first that you really just
+
+97
+00:04:34.080 --> 00:04:36.160
+gonna write is gonna be html i automatically
+
+98
+00:04:36.160 --> 00:04:38.639
+write it for me because i'm in sublime
+
+99
+00:04:38.639 --> 00:04:40.560
+and let me just give this a title
+
+100
+00:04:40.560 --> 00:04:43.919
+so the demo website and save the file and
+
+101
+00:04:43.919 --> 00:04:47.199
+let me open it in firefox you can see
+
+102
+00:04:47.199 --> 00:04:50.240
+that i get a title now there's nothing
+
+103
+00:04:50.240 --> 00:04:53.520
+inside of it so it's just going to be a blank website
+
+104
+00:04:53.520 --> 00:04:55.680
+and also like this is the demo website
+
+105
+00:04:55.680 --> 00:04:57.280
+that we are going to make
+
+106
+00:04:57.280 --> 00:05:00.320
+i've done like a few adjustments but
+
+107
+00:05:00.320 --> 00:05:04.400
+it's gonna be this so i'm gonna make the whole structure
+
+108
+00:05:04.400 --> 00:05:07.120
+of html for this you can see like we
+
+109
+00:05:07.120 --> 00:05:09.039
+will be making this whole thing
+
+110
+00:05:09.039 --> 00:05:12.479
+making it functional until the end
+
+111
+00:05:12.479 --> 00:05:15.520
+so let me just give that a refresh
+
+112
+00:05:15.520 --> 00:05:19.199
+and let's actually give the website an icon
+
+113
+00:05:19.199 --> 00:05:23.440
+which is going to be a reel equal to icon
+
+114
+00:05:23.440 --> 00:05:25.680
+and type is going to be image and slash
+
+115
+00:05:25.680 --> 00:05:28.400
+png just because i have an image
+
+116
+00:05:28.400 --> 00:05:31.039
+of type png the href is going to be the
+
+117
+00:05:31.039 --> 00:05:33.600
+directory of the image where you've saved it
+
+118
+00:05:33.600 --> 00:05:36.840
+so i have a folder of assets and i've named it
+
+119
+00:05:36.840 --> 00:05:40.080
+favicon you know dash 600
+
+120
+00:05:40.080 --> 00:05:43.600
+and yeah let me just get that
+
+121
+00:05:43.600 --> 00:05:47.039
+so wherever your index is that's where you actually like
+
+122
+00:05:47.039 --> 00:05:49.440
+write the directories for it so i
+
+123
+00:05:49.440 --> 00:05:50.720
+have an index in here
+
+124
+00:05:50.720 --> 00:05:53.919
+i can just say like assets and then slash
+
+125
+00:05:53.919 --> 00:05:57.600
+favicon you know dash 600.
+
+126
+00:05:57.600 --> 00:06:01.039
+let me just copy that and put it in
+
+127
+00:06:01.039 --> 00:06:04.319
+and then dot png and if we refresh this now
+
+128
+00:06:04.319 --> 00:06:07.759
+we should get a favicon or an icon for the website
+
+129
+00:06:07.759 --> 00:06:11.120
+but let's say your picture is actually not in
+
+130
+00:06:11.120 --> 00:06:13.759
+the assets let's say it's actually
+
+131
+00:06:13.759 --> 00:06:15.120
+one directory back
+
+132
+00:06:15.120 --> 00:06:18.720
+or before your index file if we just
+
+133
+00:06:18.720 --> 00:06:23.120
+let me just remove the cache just because it's cached
+
+134
+00:06:23.120 --> 00:06:25.680
+yeah you can see like we are not
+
+135
+00:06:25.680 --> 00:06:27.600
+getting an icon because it's not in the
+
+136
+00:06:27.600 --> 00:06:29.280
+assets folder anymore
+
+137
+00:06:29.280 --> 00:06:33.039
+actually it's one directory back you know
+
+138
+00:06:33.039 --> 00:06:35.360
+so how do we tell the code to actually
+
+139
+00:06:35.360 --> 00:06:36.960
+get back one directory
+
+140
+00:06:36.960 --> 00:06:39.440
+and that is fairly simple you just type
+
+141
+00:06:39.440 --> 00:06:41.039
+double dots and then slash
+
+142
+00:06:41.039 --> 00:06:45.440
+and then your file that's literally just gonna get
+
+143
+00:06:45.440 --> 00:06:49.120
+back one directory and search for your file
+
+144
+00:06:49.120 --> 00:06:51.360
+and now if i actually refresh this you
+
+145
+00:06:51.360 --> 00:06:54.000
+can see i get the icon back
+
+146
+00:06:54.000 --> 00:06:55.919
+and if you have it like two directories
+
+147
+00:06:55.919 --> 00:06:57.120
+back you can just type
+
+148
+00:06:57.120 --> 00:06:59.919
+another dot a double dot and slash
+
+149
+00:06:59.919 --> 00:07:01.199
+it's going to do the same thing
+
+150
+00:07:01.199 --> 00:07:04.080
+but for me i've saved it in my assets
+
+151
+00:07:04.080 --> 00:07:05.360
+folder so let me just
+
+152
+00:07:05.360 --> 00:07:08.639
+get this back to there and
+
+153
+00:07:08.639 --> 00:07:11.680
+refresh now it should have the same thing
+
+154
+00:07:11.680 --> 00:07:13.840
+let me just give the site a
+
+155
+00:07:13.840 --> 00:07:16.639
+description which is going to be a meta tag and
+
+156
+00:07:16.639 --> 00:07:19.599
+you know the name is going to be
+
+157
+00:07:19.599 --> 00:07:21.120
+equal to description
+
+158
+00:07:21.120 --> 00:07:24.560
+and the content is going to be equal
+
+159
+00:07:24.560 --> 00:07:26.000
+let me actually get it from the demo
+
+160
+00:07:26.000 --> 00:07:30.400
+website so let me just get back to the start of the url and
+
+161
+00:07:30.400 --> 00:07:33.840
+type view source and column
+
+162
+00:07:33.840 --> 00:07:36.800
+we should get you know the source code
+
+163
+00:07:36.800 --> 00:07:39.680
+and then just copy this description and get it back to
+
+164
+00:07:39.680 --> 00:07:43.280
+the tutorial code and that should do the job
+
+165
+00:07:43.280 --> 00:07:44.879
+so then the next one is just going to be
+
+166
+00:07:44.879 --> 00:07:48.160
+a meta tag type of viewport let me just copy that
+
+167
+00:07:48.160 --> 00:07:51.440
+paste it in and that should do the job
+
+168
+00:07:51.440 --> 00:07:55.039
+so i've done the head so now we should do the body
+
+169
+00:07:55.039 --> 00:07:56.560
+so the first section i'm going to ever
+
+170
+00:07:56.560 --> 00:07:59.199
+make is going to be the header you know
+
+171
+00:07:59.199 --> 00:08:00.720
+so let me actually view it in this way so
+
+172
+00:08:00.720 --> 00:08:02.720
+you can see so it's just gonna have
+
+173
+00:08:02.720 --> 00:08:06.160
+you know two sections or two divs
+
+174
+00:08:06.160 --> 00:08:07.759
+the first one is gonna hold the you know
+
+175
+00:08:07.759 --> 00:08:09.599
+the logo and this image and the other
+
+176
+00:08:09.599 --> 00:08:11.680
+one is just gonna have these links
+
+177
+00:08:11.680 --> 00:08:15.120
+so let me just make the header tag and as i said
+
+178
+00:08:15.120 --> 00:08:18.000
+the header tag will have like two divs
+
+179
+00:08:18.000 --> 00:08:22.000
+so let me make the first div so inside of this div
+
+180
+00:08:22.000 --> 00:08:24.639
+we'll just have like an anchor tag
+
+181
+00:08:24.639 --> 00:08:28.240
+and the content of it is gonna be web dev course
+
+182
+00:08:28.240 --> 00:08:29.520
+and the other one is just gonna be an
+
+183
+00:08:29.520 --> 00:08:32.719
+img tag which will have like a source
+
+184
+00:08:32.719 --> 00:08:35.679
+and equal to assets slash menu dot png
+
+185
+00:08:35.679 --> 00:08:36.958
+just because that's where i
+
+186
+00:08:36.958 --> 00:08:38.880
+saved my file and the other div is just
+
+187
+00:08:38.880 --> 00:08:40.880
+gonna have a bunch of this links
+
+188
+00:08:40.880 --> 00:08:44.000
+so it's just gonna be a nav tag and
+
+189
+00:08:44.000 --> 00:08:45.839
+inside of this nav tag i'm gonna have a
+
+190
+00:08:45.839 --> 00:08:47.120
+bunch of anchor tags
+
+191
+00:08:47.120 --> 00:08:48.480
+so the first one is gonna be home let me
+
+192
+00:08:48.480 --> 00:08:50.880
+just copy this a few times
+
+193
+00:08:50.880 --> 00:08:54.560
+yes and the second one is going to be work
+
+194
+00:08:54.560 --> 00:08:57.920
+the third one is going to be about if i
+
+195
+00:08:57.920 --> 00:09:00.160
+can type it right and the fourth one is
+
+196
+00:09:00.160 --> 00:09:02.160
+going to be contact
+
+197
+00:09:02.160 --> 00:09:03.839
+and that should do the job so this is
+
+198
+00:09:03.839 --> 00:09:05.760
+the same thing as in demo website
+
+199
+00:09:05.760 --> 00:09:08.480
+however the image is too big let me fix that
+
+200
+00:09:08.480 --> 00:09:11.760
+so i'm just gonna say width & equal it to 100%
+
+201
+00:09:11.760 --> 00:09:13.760
+however i'm gonna change this back
+
+202
+00:09:13.760 --> 00:09:16.080
+i'm gonna remove this and do it in css
+
+203
+00:09:16.080 --> 00:09:19.839
+but let me show you just what it does so if i just
+
+204
+00:09:19.839 --> 00:09:23.040
+you know change the image source to be bulb
+
+205
+00:09:23.040 --> 00:09:25.920
+dash off you can see like if i don't
+
+206
+00:09:25.920 --> 00:09:29.360
+have this width thing it's gonna be really big and gigantic
+
+207
+00:09:29.360 --> 00:09:32.640
+you can actually like fit it in the website so
+
+208
+00:09:32.640 --> 00:09:34.880
+let me just get that back i hope that
+
+209
+00:09:34.880 --> 00:09:37.760
+actually like showed what i was
+
+210
+00:09:37.760 --> 00:09:39.839
+meaning so the other section is just
+
+211
+00:09:39.839 --> 00:09:41.120
+gonna be having this bulb
+
+212
+00:09:41.120 --> 00:09:44.320
+and you know this puzzle thing
+
+213
+00:09:44.320 --> 00:09:47.519
+where you have to like fix the circuit
+
+214
+00:09:47.519 --> 00:09:49.600
+so it's just gonna be another div and
+
+215
+00:09:49.600 --> 00:09:51.360
+it will have like a div
+
+216
+00:09:51.360 --> 00:09:54.640
+and an img for it so the img is
+
+217
+00:09:54.640 --> 00:09:55.920
+going to be the bulb off
+
+218
+00:09:55.920 --> 00:10:01.040
+again and if we actually refresh we can see it
+
+219
+00:10:01.040 --> 00:10:04.320
+right there and the first div we'll just have like
+
+220
+00:10:04.320 --> 00:10:07.440
+this alert thing and then this puzzle inside of it
+
+221
+00:10:07.440 --> 00:10:11.120
+so let me just make another div for that alert
+
+222
+00:10:11.120 --> 00:10:13.120
+and let me just copy it and paste it
+
+223
+00:10:13.120 --> 00:10:15.519
+over and it will have
+
+224
+00:10:15.519 --> 00:10:20.399
+like another div let me just type it
+
+225
+00:10:20.399 --> 00:10:22.560
+and it will just have like an svg
+
+226
+00:10:22.560 --> 00:10:23.920
+element inside of it
+
+227
+00:10:23.920 --> 00:10:26.640
+svgs are really great as you can see
+
+228
+00:10:26.640 --> 00:10:30.640
+so svgs are much different than
+
+229
+00:10:30.640 --> 00:10:34.079
+you know images and other stuff because
+
+230
+00:10:34.079 --> 00:10:37.680
+like you can do a lot with them you can animate them and
+
+231
+00:10:37.680 --> 00:10:40.240
+they're always there as you can see you
+
+232
+00:10:40.240 --> 00:10:42.000
+can make them with a lot of softwares
+
+233
+00:10:42.000 --> 00:10:44.079
+and other programs but i'd rather
+
+234
+00:10:44.079 --> 00:10:46.720
+use a you know a website like this one
+
+235
+00:10:46.720 --> 00:10:48.560
+and as you can see i've made
+
+236
+00:10:48.560 --> 00:10:51.760
+all of that design with just fairly simple
+
+237
+00:10:51.760 --> 00:10:53.519
+shapes and you can actually export them
+
+238
+00:10:53.519 --> 00:10:58.000
+as svgs so let me just get out of here
+
+239
+00:10:58.880 --> 00:11:01.920
+just copy it from the source code and
+
+240
+00:11:01.920 --> 00:11:04.399
+paste it over here
+
+241
+00:11:04.399 --> 00:11:07.200
+let me just turn off the word wrap so
+
+242
+00:11:07.200 --> 00:11:08.640
+you can see it better
+
+243
+00:11:08.640 --> 00:11:12.399
+and yeah so this is the same thing
+
+244
+00:11:12.399 --> 00:11:16.560
+as in actually the demo website and let me actually
+
+245
+00:11:16.560 --> 00:11:19.839
+remove that id equels rotate just because
+
+246
+00:11:19.839 --> 00:11:21.760
+it is responsible for you know
+
+247
+00:11:21.760 --> 00:11:23.839
+rotating that puzzle thing
+
+248
+00:11:23.839 --> 00:11:27.360
+that i'm going to do in the javascript lesson
+
+249
+00:11:27.360 --> 00:11:31.839
+and let me fix that so width equals
+
+250
+00:11:31.839 --> 00:11:35.040
+100% and now it should be looking great
+
+251
+00:11:35.040 --> 00:11:37.279
+so this section is going to be having
+
+252
+00:11:37.279 --> 00:11:39.040
+this another thing but before that we
+
+253
+00:11:39.040 --> 00:11:40.560
+have like a horizontal line when we
+
+254
+00:11:40.560 --> 00:11:41.760
+actually remove that
+
+255
+00:11:41.760 --> 00:11:45.920
+it pops up so it like divides or splits the whole
+
+256
+00:11:45.920 --> 00:11:48.240
+two sections and then we have
+
+257
+00:11:48.240 --> 00:11:50.959
+like this X and then this Note
+
+258
+00:11:50.959 --> 00:11:52.480
+so first let me just get that
+
+259
+00:11:52.480 --> 00:11:54.560
+horizontal line done it's going to be a div
+
+260
+00:11:54.560 --> 00:11:57.839
+and then we will have like another div
+
+261
+00:11:57.839 --> 00:11:59.440
+and then inside of that they will have
+
+262
+00:11:59.440 --> 00:12:01.279
+another one and then an X
+
+263
+00:12:01.279 --> 00:12:04.480
+for that X button and then we have this note
+
+264
+00:12:04.480 --> 00:12:07.760
+which is really fairly simple it's another div
+
+265
+00:12:07.760 --> 00:12:10.000
+and we have like another div for
+
+266
+00:12:10.000 --> 00:12:11.440
+positioning purposes and
+
+267
+00:12:11.440 --> 00:12:13.680
+another p inside of it let me just copy
+
+268
+00:12:13.680 --> 00:12:18.160
+that and bring it to the p tag and if we refresh this
+
+269
+00:12:18.160 --> 00:12:20.079
+you'll see or you'll notice that it's
+
+270
+00:12:20.079 --> 00:12:22.240
+not the same as in our demo website
+
+271
+00:12:22.240 --> 00:12:25.360
+the note is bigger the v is smaller but
+
+272
+00:12:25.360 --> 00:12:29.279
+in ours it's basically the same so if we look
+
+273
+00:12:29.279 --> 00:12:30.880
+into the source code you'll see
+
+274
+00:12:30.880 --> 00:12:34.079
+like i've used some other tags to
+
+275
+00:12:34.079 --> 00:12:36.560
+get away with that i didn't talk
+
+276
+00:12:36.560 --> 00:12:37.839
+about them because i did not think they
+
+277
+00:12:37.839 --> 00:12:40.160
+are that important but let me just write them down
+
+278
+00:12:40.160 --> 00:12:43.120
+and tell you what they do so if we just
+
+279
+00:12:43.120 --> 00:12:45.519
+get a b tag and then a
+
+280
+00:12:45.519 --> 00:12:48.480
+big tag and put the note inside of it
+
+281
+00:12:48.480 --> 00:12:50.079
+and if we refresh it will make it
+
+282
+00:12:50.079 --> 00:12:53.600
+bigger and bolder and that's basically what it does
+
+283
+00:12:53.600 --> 00:12:55.600
+and we can do the same for the v
+
+284
+00:12:55.600 --> 00:12:59.760
+which is just going to be a small tag and
+
+285
+00:12:59.760 --> 00:13:02.800
+we will put the v inside of it let me
+
+286
+00:13:02.800 --> 00:13:04.800
+just do it for all of them
+
+287
+00:13:04.800 --> 00:13:07.200
+and if we refresh you can see the v is
+
+288
+00:13:07.200 --> 00:13:10.399
+smaller and the note is bigger and bolder
+
+289
+00:13:10.399 --> 00:13:13.760
+the other section is just gonna be having
+
+290
+00:13:13.760 --> 00:13:16.800
+the alert for that section and then
+
+291
+00:13:16.800 --> 00:13:19.279
+bunch of inputs and a button so first
+
+292
+00:13:19.279 --> 00:13:20.399
+let me do the alert
+
+293
+00:13:20.399 --> 00:13:22.560
+which is just like another div let me just copy
+
+294
+00:13:22.560 --> 00:13:24.240
+that and put it in
+
+295
+00:13:24.240 --> 00:13:27.600
+and that's it the other section
+
+296
+00:13:27.600 --> 00:13:30.639
+is gonna be two sections
+
+297
+00:13:30.639 --> 00:13:34.000
+one for the inputs and one for the button
+
+298
+00:13:34.000 --> 00:13:36.160
+so it's just going to be a div and then
+
+299
+00:13:36.160 --> 00:13:38.480
+two divs inside of it
+
+300
+00:13:38.480 --> 00:13:40.480
+and i'm just going to do the check
+
+301
+00:13:40.480 --> 00:13:41.839
+button just because it's easier
+
+302
+00:13:41.839 --> 00:13:42.639
+it's just going to be a
+
+303
+00:13:42.639 --> 00:13:44.800
+div and a button inside of it and the
+
+304
+00:13:44.800 --> 00:13:48.480
+type of the button is going to be equal to button
+
+305
+00:13:48.480 --> 00:13:52.800
+and the content is going to be just check
+
+306
+00:13:52.800 --> 00:13:54.639
+and if we look into it we should see the
+
+307
+00:13:54.639 --> 00:13:56.639
+button right over there
+
+308
+00:13:56.639 --> 00:14:00.320
+so the other one is going to be having the input
+
+309
+00:14:00.320 --> 00:14:02.320
+so the input is just going to be a type
+
+310
+00:14:02.320 --> 00:14:05.199
+of number and we won't need the name let me remove that
+
+311
+00:14:05.199 --> 00:14:08.480
+we will need the placeholder which is equal to one
+
+312
+00:14:08.480 --> 00:14:10.000
+and then we have another thing which is
+
+313
+00:14:10.000 --> 00:14:11.519
+value but you can see
+
+314
+00:14:11.519 --> 00:14:14.959
+the gray one is the placeholder so i just want to
+
+315
+00:14:14.959 --> 00:14:17.120
+you know equal the value to be one so
+
+316
+00:14:17.120 --> 00:14:19.040
+it's automatically always one when
+
+317
+00:14:19.040 --> 00:14:22.959
+the user opens it and we have another
+
+318
+00:14:22.959 --> 00:14:25.760
+tag which is going to be the b i'm
+
+319
+00:14:25.760 --> 00:14:26.800
+going to put these
+
+320
+00:14:26.800 --> 00:14:28.639
+math signs inside of it the first one is
+
+321
+00:14:28.639 --> 00:14:30.959
+going to be multiplication
+
+322
+00:14:30.959 --> 00:14:34.800
+and let me just copy this a few times
+
+323
+00:14:34.800 --> 00:14:39.519
+so and the second is just going to be division
+
+324
+00:14:39.519 --> 00:14:42.880
+and the third is going to be plus and
+
+325
+00:14:42.880 --> 00:14:47.600
+subtract and equal and we'll have another tag
+
+326
+00:14:47.600 --> 00:14:51.040
+that will just hold the results inside of it
+
+327
+00:14:51.040 --> 00:14:55.199
+if we look at the results we should have
+
+328
+00:14:55.199 --> 00:14:57.040
+the whole thing looking the same but
+
+329
+00:14:57.040 --> 00:14:59.120
+we won't have any results just because i am
+
+330
+00:14:59.120 --> 00:15:01.199
+going to calculate them with javascript
+
+331
+00:15:01.199 --> 00:15:02.800
+as you can see in the source code we
+
+332
+00:15:02.800 --> 00:15:05.519
+have like an id equal to input
+
+333
+00:15:05.519 --> 00:15:08.800
+and that's just going to be it for that so
+
+334
+00:15:08.800 --> 00:15:10.399
+the other section is just going to be a
+
+335
+00:15:10.399 --> 00:15:14.560
+footer which will have like two sections basically
+
+336
+00:15:14.560 --> 00:15:18.079
+so let me just make a footer
+
+337
+00:15:18.079 --> 00:15:21.360
+element and then we'll have like two divs inside of it
+
+338
+00:15:21.360 --> 00:15:24.079
+and the second div which will just be
+
+339
+00:15:24.079 --> 00:15:26.399
+the copy right thing i'm going to do that first
+
+340
+00:15:26.399 --> 00:15:29.920
+just because it's easier we'll have like a p
+
+341
+00:15:29.920 --> 00:15:33.199
+tag let me copy that in
+
+342
+00:15:33.199 --> 00:15:35.440
+and an anchor tag so you can actually
+
+343
+00:15:35.440 --> 00:15:38.160
+direct the user to anywhere on the internet
+
+344
+00:15:38.160 --> 00:15:41.279
+i will just direct them to my instagram account and
+
+345
+00:15:41.279 --> 00:15:45.920
+it's just gonna be inside of a new blank window
+
+346
+00:15:45.920 --> 00:15:51.600
+so let me just equal the target to be under score blank
+
+347
+00:15:51.600 --> 00:15:54.480
+and the content is gonna be Jihad Kurdo
+
+348
+00:15:54.480 --> 00:15:56.079
+so if we just get back and refresh
+
+349
+00:15:56.079 --> 00:15:59.040
+we should see the div right there and we
+
+350
+00:15:59.040 --> 00:16:00.720
+have like a link and if we tap it
+
+351
+00:16:00.720 --> 00:16:02.399
+it should open the link in a new
+
+352
+00:16:02.399 --> 00:16:05.600
+window and now let's do the
+
+353
+00:16:05.600 --> 00:16:09.279
+the first div which is just going to be another div and
+
+354
+00:16:09.279 --> 00:16:12.959
+we'll have another div underneath it
+
+355
+00:16:12.959 --> 00:16:14.800
+which will just hold the
+
+356
+00:16:14.800 --> 00:16:17.519
+you know the links so the first div will
+
+357
+00:16:17.519 --> 00:16:20.240
+have like another div and inside of that div we'll have
+
+358
+00:16:20.240 --> 00:16:22.480
+an anchor tag the content is just
+
+359
+00:16:22.480 --> 00:16:24.160
+gonna be web dev course
+
+360
+00:16:24.160 --> 00:16:27.839
+and under that we'll just have a p tag that will hold
+
+361
+00:16:27.839 --> 00:16:32.720
+the description let me just copy it and paste it in
+
+362
+00:16:32.720 --> 00:16:34.639
+and if we just go back and look at it we
+
+363
+00:16:34.639 --> 00:16:36.639
+should see it right there
+
+364
+00:16:36.639 --> 00:16:40.720
+i'll just have another div for positioning purposes
+
+365
+00:16:40.720 --> 00:16:44.320
+and let me just copy these from the nav tag
+
+366
+00:16:44.320 --> 00:16:47.680
+just because they are right there and they are the same
+
+367
+00:16:47.680 --> 00:16:50.800
+and let me position them
+
+368
+00:16:50.800 --> 00:16:54.480
+right and that's it this is the same structure
+
+369
+00:16:54.480 --> 00:16:57.279
+for the demo website and there you go
+
+370
+00:16:57.279 --> 00:17:00.240
+and with that we are done with the third lesson as well
+
+371
+00:17:00.240 --> 00:17:02.240
+where we actually just write the whole
+
+372
+00:17:02.240 --> 00:17:04.000
+structure for the demo website
+
+373
+00:17:04.000 --> 00:17:06.640
+i hope you liked the video and
+
+374
+00:17:06.640 --> 00:17:08.319
+learned something in the process
+
+375
+00:17:08.319 --> 00:17:10.319
+if you liked the video smash like and if
+
+376
+00:17:10.319 --> 00:17:12.160
+you didnt smash dislike and
+
+377
+00:17:12.160 --> 00:17:13.359
+subscribe if you want to
+
+378
+00:17:13.359 --> 00:17:18.720
+see more about this and see you at the fourth lesson
+

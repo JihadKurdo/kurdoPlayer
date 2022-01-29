@@ -1,0 +1,329 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+@font-face {
+  font-family: kurdish;
+  src: url(kurdish.ttf);
+}
+
+::cue{
+    font-size: 1em;
+    background-color: transparent !important;
+    text-shadow: 0 0 0.1em #000,0 0 0.2em #000,0 0 0.3em #000;
+    font-family: kurdish;
+}
+
+body{
+	margin: 0;
+	overflow: hidden;
+	position: fixed;
+}
+.player{
+	width: 100%;
+	height: auto;
+	position: relative;
+	background: transparent;
+	user-select: none;
+	display: block;
+}
+.controlsBtnToggle{
+	position: absolute;
+	top: 50%;
+	right: 2.5%;
+	cursor: pointer;
+	transform: translateY(-50%);
+}
+.controlsBtnToggle img{
+	width: 25px;
+	transition-duration: 1s;
+	filter: drop-shadow(0px 0px 10px #000);
+}
+.controlsBtnToggle img:hover{
+	opacity: 1;
+	transition-duration: .4s;
+}
+.player_container{
+	position: absolute;
+	left: 0;
+	bottom: 5px;
+	width: 100%;
+	height: 20%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-direction: column;
+	background-image: linear-gradient(#fff0, #0005);
+	transition-duration:.4s;
+	opacity: 1;
+}
+.timeScroll{
+  -webkit-appearance: none;
+	width: 95%;
+	height: 7.5px;
+	position: relative;
+	border-radius: 100px;
+	margin-bottom: 10px;
+  background: #547b93ab;
+}
+.controls_container{
+	width: 95%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 5px;
+}
+.controls_right{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 33%;
+}
+.soundScroll{
+  -webkit-appearance: none;
+	width: 50%;
+	height: 7.5px;
+	position: relative;
+	background: #547b93ab;
+	border-radius: 100px;
+	margin: 0 10px;
+}
+.controls_center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 33%;
+}
+.sound,.tenSecBefore,.playMini,.tenSecAhead,.fS{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.gear{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	cursor: auto !important;
+}
+.tenSecBefore img,.tenSecAhead img,.fS img,.gear img,.playMini img,.sound img{
+	width: 25px;
+	margin:0 2.5px;	
+	pointer-events: none;
+	user-select: none;
+	filter: drop-shadow(0px 0px 10px #000);
+}
+.sound img{
+	width: 20px !important;
+}
+.gear img{
+	pointer-events: auto !important;
+	cursor: pointer !important;
+}
+.playMini img{
+	width: 40px !important;
+}
+.controls_left{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 33%;
+}
+.controls{
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+}
+
+input[type=range]::-moz-range-track,
+input[type=range]::focus::-moz-range-track,
+input[type=range]::focus{
+	-webkit-appearance: none;
+	border: none;
+	border-radius: 3px;
+	background: #547b93ab;
+}
+input[type=range]::-moz-range-thumb{
+	-webkit-appearance: none;
+	border: none;
+	height: 16px;
+	width: 16px;
+	border-radius: 50%;
+	background: white;
+	outline: none;
+	cursor: pointer;
+	filter: drop-shadow(0px 0px 10px #000);
+}
+input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	border: none;
+	height: 16px;
+	width: 16px;
+	border-radius: 50%;
+	background: white;
+	outline: none;
+	cursor: pointer;
+	filter: drop-shadow(0px 0px 10px #000);
+}
+.time{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	filter: drop-shadow(0px 0px 10px #000);
+}
+.time small{
+	color: white;
+	margin-top: 1px;
+	font-size: 15px;
+	font-family: 'Roboto Condensed';
+	user-select: none;
+}
+.loopScroll{
+  -webkit-appearance: none;
+	width: 25%;
+	height: 7.5px;
+	position: relative;
+	border-radius: 100px;
+  background: #547b93ab;
+  cursor: pointer;
+}
+.off{
+	display: none;
+}
+.on{
+	display: flex;
+}
+.settings{
+	position: absolute;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	color: white;
+	bottom: 125%;
+	right: 5%;
+	background: #222d31;
+	font-family: 'Roboto Condensed';
+	border-radius: 5px;
+	box-shadow: 2px 2px 15px #020204;
+	font-size: 15px;
+}
+.settings .title{
+	border-bottom: 1px solid #7cc1ea0a;
+	width: 92%;
+	margin: 4%;
+	text-align: left;
+	padding-bottom: 7px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.settings .option{
+	width: 92%;
+	margin: 4%;
+	text-align: left;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.settingsOne,.settingsTwo,.settingsThree{
+	width: 100%;
+	flex-direction: column;
+}
+.back{
+	font-family: 'Roboto Condensed';
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	text-align: right;
+	font-size: 15px;
+	cursor: pointer;
+}
+.speedOptions{
+	width: 92%;
+	margin: 4%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+	margin-top: 0;
+	height: 100px;
+	overflow-y: scroll;
+}
+.subOptions{
+	width: 92%;
+	margin: 4%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: column;
+	margin-top: 0;
+	max-height: 100px;
+	overflow-y: scroll;
+}
+.selected{
+	background: #2f3b40;
+}
+.speedOptions div{
+	padding: 4%;
+	border-radius: 5px;
+	text-align: left;
+	width: 92%;
+	cursor: pointer;
+}
+.speed{
+	pointer-events: auto;
+	cursor: pointer;
+	width: 100%;
+}
+.subOptions div{
+	padding: 4%;
+	border-radius: 5px;
+	text-align: left;
+	width: 92%;
+	cursor: pointer;
+}
+.sub{
+	pointer-events: auto;
+	cursor: pointer;
+	width: 100%;
+}
+.controlsOff{
+  pointer-events: none;
+  opacity: 0;
+  transition-duration: 1s;
+}
+.controlsToggleImg{
+  opacity: 0.5 !important;
+  transition-duration: .4s;
+}
+
+@media screen and (max-width:900px) {
+	.soundScroll{
+		display: none;
+	}
+	.playMini img {
+	    width: 35px;
+	}
+	.fS img,.gear img,.tenSecAhead img,.tenSecBefore img,.controlsBtnToggle img{
+	  width: 20px;
+	  filter: drop-shadow(0px 0px 10px #000);
+	}
+	.time{
+    margin-left: 5px;
+	}
+	.loopScroll{
+		width: 40%;
+	}
+	.settings{
+		font-size: 13px;
+	}
+	.settings .title{
+		width: 90%;
+		margin: 5%;
+	}
+	.settings .option{
+		width: 90%;
+		margin: 5%;	
+	}
+}
